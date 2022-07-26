@@ -3,6 +3,8 @@
 In botany, phyllotaxis or phyllotaxy is the arrangement of leaves on a plant stem.
 [Wikipedia](https://en.wikipedia.org/wiki/Phyllotaxis)
 
+[phyllotaxis](https://user-images.githubusercontent.com/32900366/181042187-058df649-2624-42bf-8ecf-9166cf64483a.webm)
+
 ## key concepts
 
 ### main formula
