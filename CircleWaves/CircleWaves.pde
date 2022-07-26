@@ -1,3 +1,6 @@
+int _framerate = 60;
+int _maxFrames = _framerate * 10;
+
 int _rowsCount;
 int _itemsInRow = 15;
 float _d; // diameter
@@ -12,7 +15,8 @@ float _angleOffsetInc = 0.125;
 PVector[] _items;
 
 void setup() {
-    size(900, 900, P3D);
+    size(640, 640, P3D);
+    frameRate(_framerate);
     background(0);
     smooth(8);
     noStroke();
@@ -57,4 +61,11 @@ void draw() {
         angleOffset += _angleOffsetInc;
     }
     _angle += _angleInc;
+
+    // Save frames
+    // if (frameCount <= _maxFrames) {
+    //     saveFrame("dist/frames/frame-#####.png");
+    // } else {
+    //     exit();
+    // }
 }
