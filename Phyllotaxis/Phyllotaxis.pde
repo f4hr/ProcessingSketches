@@ -29,11 +29,11 @@ float _minDotSize = 8;
 float _maxDotSize = 12;
 
 boolean _isEdge = false;
-boolean _isStatic = true;
+boolean _isStatic = false;
 boolean _showAngle = true;
 
 void setup() {
-    size(900, 900, P2D);
+    size(640, 640, P2D);
     surface.setTitle(String.format("angle: %.2f", _angle));
     frameRate(_framerate);
     background(_c_bg);
